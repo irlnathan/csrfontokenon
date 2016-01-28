@@ -60,5 +60,5 @@ module.exports.csrf = true;
 
 module.exports.csrf = {
    grantTokenViaAjax: true,
-   origin: 'https://badsite.herokuapp.com'
+   origin: 'http://badsite.herokuapp.com/csrftokenrequest'
 }
